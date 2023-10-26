@@ -591,8 +591,6 @@ body.offcanvas {
   background-clip: padding-box; }
 
   .timeline-label-ed {
-    border: 2px solid #f2f3f7;
-    background: white !important;
     border-radius: 5px;
 
 }
@@ -617,6 +615,44 @@ body.offcanvas {
   font-size: 19px;
   font-family: "Raleway", Arial, sans-serif;
   font-weight: 400; }
+
+.publication {
+  padding: 1rem;
+  background: #f2f3f7;
+  margin-bottom: 2rem;
+}
+.publication h2 {
+  font-size: 19px;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.publication-authors {
+  line-height: 1.4;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 81%;
+}
+
+.publication p {
+  margin-bottom:0;
+}
+
+.publication-picture {
+  margin: 5px 15px 5px 5px;
+}
+
+.publication-picture img {
+  object-fit: cover; 
+  width: 100px; 
+  height:100px;
+  border-radius: 3px;
+}
+
+.publication-container {
+  display:flex;
+  align-items: center;
+}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
   color: #000; }
