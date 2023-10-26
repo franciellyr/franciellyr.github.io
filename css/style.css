@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -404,11 +404,11 @@ body.offcanvas {
   position: relative; }
 
 .colorlib-heading {
-  font-size: 18px;
+  font: normal normal normal 60px/1.4em quicksand,sans-serif;
+  font-size: 24px;
   margin-bottom: 4em;
-  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: normal;
   line-height: 1.8;
   position: relative; }
   .colorlib-heading span {
@@ -541,11 +541,15 @@ body.offcanvas {
   position: relative;
   margin-left: -20px; }
 
+  .timeline-icon {
+    padding-top: 2px;
+  }
+
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
   display: block;
   width: 40px;
   height: 40px;
-  background: #2c98f0;
+  background: #9bb0c2;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -581,6 +585,13 @@ body.offcanvas {
   -moz-background-clip: padding;
   background-clip: padding-box; }
 
+  .timeline-label-ed {
+    border: 2px solid #f2f3f7;
+    background: white !important;
+    border-radius: 5px;
+
+}
+
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
   content: '';
   display: block;
@@ -598,9 +609,9 @@ body.offcanvas {
   margin-top: 15px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
-  font-size: 20px;
-  font-family: "Quicksand", Arial, sans-serif;
-  font-weight: 500; }
+  font-size: 19px;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 400; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
   color: #000; }
@@ -730,7 +741,7 @@ body.offcanvas {
 
 .progress-wrap h3 {
   font-size: 16px;
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   margin-bottom: 10px; }
 
 .progress {
