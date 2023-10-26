@@ -74,16 +74,19 @@ figure {
 
 #colorlib-aside {
   padding-top: 3em;
-  padding-bottom: 40px;
   float: left;
   width: 300px;
   position: fixed;
-  overflow-y: scroll;
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s; 
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
@@ -92,7 +95,8 @@ figure {
       -ms-transform: translateX(-300px);
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
-      padding-top: 4em; } }
+      padding-top: 3em; 
+      overflow-y: scroll;} }
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
@@ -120,8 +124,9 @@ figure {
       color: #000;
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
-    display: block;
-    width: 100%; }
+   /* display: block;
+    width: 100%; } */
+    flex-grow: 1;}
     #colorlib-aside #colorlib-main-menu .collapse {
       display: block !important; }
     #colorlib-aside #colorlib-main-menu ul {
@@ -670,8 +675,8 @@ body.offcanvas {
   .services .icon {
     position: absolute;
     top: -20px;
-    left: 0;
-    right: 0;
+    /*left: 0;
+    right: 0;*/
     width: 100px;
     height: 50px;
     display: table;
